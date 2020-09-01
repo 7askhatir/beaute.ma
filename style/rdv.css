@@ -1,0 +1,22 @@
+h1{
+    color: black;
+}
+.et .img{
+    height: 500px;
+    width: 100%;
+}
+.et  .txt_rd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn_rd{
+    display: flex;
+    justify-self: end;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: auto;
+}

@@ -1,0 +1,38 @@
+.ville{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.ville_1{
+    width: 30%;
+    height: 250px;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    margin:  20px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-size: cover;
+}
+#txt{
+   position: relative;
+   left: 20px;
+   top: 180px;
+   padding: 0px 10px;
+   color: white;
+   text-shadow: white;
+}
+@media(max-width : 1025px){
+.ville_1{
+    width: 46%;
+}
+}
+@media(max-width : 570px){
+    .ville_1{
+    width: 90%;
+    }
+}
+.p_et{
+    padding: 10%;
+}
